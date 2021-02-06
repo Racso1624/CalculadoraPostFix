@@ -6,14 +6,15 @@
  * Interface: CalculadoraGeneral
  ***************************************/
 
-/** 
-     * Pre: Se ingresa la expresion.
-     * @param expresion expresiones con el formato PostFix.
-     * @return String regresa el resultado de la operacion.
-     * Post: Regresa el resultado de la expresion que se evalua.
-     */
+//Se crea la Interfaz CalculadoraGeneral
 public interface CalculadoraGeneral {
 
+    /** 
+     * Pre: Se ingresa la expresion
+     * @param expresion expresiones con el formato PostFix
+     * @return String regresa el resultado de la operacion
+     * Post: Regresa el resultado de la expresion que se evalua
+     */
     public String Calculo(String expresion);
     
 }
